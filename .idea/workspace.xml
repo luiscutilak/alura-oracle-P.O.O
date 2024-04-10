@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Alura+Oracle P.O.O - Aula 01- Projeto Filmes.">
-      <change afterPath="$PROJECT_DIR$/src/Calculadora.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro">
+      <change afterPath="$PROJECT_DIR$/src/Musica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +24,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Desafios-Calculadora" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "luiscutilak"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luiscutilak&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -55,15 +56,16 @@
   "keyToString": {
     "Application.Calculadora.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Musica.executor": "Run",
     "Application.Pessoa.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Desafio",
+    "git-widget-placeholder": "Desafios-Musica",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Calculadora">
+  <component name="RunManager" selected="Application.Musica">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculadora" />
       <module name="scrennmatch" />
@@ -78,6 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Musica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Musica" />
+      <module name="scrennmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pessoa" />
       <module name="scrennmatch" />
@@ -87,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Musica" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.Pessoa" />
         <item itemvalue="Application.Main" />
@@ -110,11 +120,62 @@
       <option name="project" value="LOCAL" />
       <updated>1712678794257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="01- Calculadora">
+      <option name="closed" value="true" />
+      <created>1712679899636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712679899636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="01- Calculadora">
+      <option name="closed" value="true" />
+      <created>1712679989493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712679989493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="01- Calculadora">
+      <option name="closed" value="true" />
+      <created>1712680012430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712680012430</updated>
+    </task>
+    <task id="LOCAL-00005" summary="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro">
+      <option name="closed" value="true" />
+      <created>1712680062288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712680062288</updated>
+    </task>
+    <task id="LOCAL-00006" summary="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro">
+      <option name="closed" value="true" />
+      <created>1712680075132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712680075132</updated>
+    </task>
+    <task id="LOCAL-00007" summary="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro">
+      <option name="closed" value="true" />
+      <created>1712680083342</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712680083342</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alura+Oracle P.O.O - Aula 01- Projeto Filmes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alura+Oracle P.O.O - Aula 01- Projeto Filmes." />
+    <MESSAGE value="01- Criar uma classe CALCULADORA com um métdo que recebe um numero como e retorna o dobro." />
+    <MESSAGE value="01- Calculadora" />
+    <MESSAGE value="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro" />
+    <option name="LAST_COMMIT_MESSAGE" value="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro" />
   </component>
 </project>
