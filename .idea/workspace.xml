@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro">
-      <change afterPath="$PROJECT_DIR$/src/Musica.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="02-Musica-Criar classe musica, com devidos atributos e métodos.">
+      <change afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Desafios-Calculadora" />
+        <entry key="$PROJECT_DIR$" value="Desafios-Musica" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,14 +60,21 @@
     "Application.Pessoa.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Desafios-Musica",
+    "git-widget-placeholder": "Desafios-Carro",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Musica">
+  <component name="RunManager" selected="Application.Carro">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculadora" />
+      <module name="scrennmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Carro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Carro" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Carro" />
         <item itemvalue="Application.Musica" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.Pessoa" />
@@ -168,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712680083342</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="02-Musica-Criar classe musica, com devidos atributos e métodos.">
+      <option name="closed" value="true" />
+      <created>1712716637765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712716637765</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +192,7 @@
     <MESSAGE value="01- Criar uma classe CALCULADORA com um métdo que recebe um numero como e retorna o dobro." />
     <MESSAGE value="01- Calculadora" />
     <MESSAGE value="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro" />
-    <option name="LAST_COMMIT_MESSAGE" value="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro" />
+    <MESSAGE value="02-Musica-Criar classe musica, com devidos atributos e métodos." />
+    <option name="LAST_COMMIT_MESSAGE" value="02-Musica-Criar classe musica, com devidos atributos e métodos." />
   </component>
 </project>
