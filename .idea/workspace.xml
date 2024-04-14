@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-Conta Bancaria- Criar a classe e implementar métodos getters e setters para os agtribustos privados.">
-      <change afterPath="$PROJECT_DIR$/src/IdadePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713125492327</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade.">
+      <option name="closed" value="true" />
+      <created>1713126692107</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713126692107</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +228,7 @@
     <MESSAGE value="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade." />
     <MESSAGE value="-Encapsulamento- Controlando o acesso e a escrita nos dados." />
     <MESSAGE value="Desafio-Conta Bancaria- Criar a classe e implementar métodos getters e setters para os agtribustos privados." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio-Conta Bancaria- Criar a classe e implementar métodos getters e setters para os agtribustos privados." />
+    <MESSAGE value="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade." />
   </component>
 </project>
