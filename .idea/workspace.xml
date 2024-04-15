@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade.">
-      <change afterPath="$PROJECT_DIR$/src/DescontoProduto.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-Desconto produto, utilizando this.">
+      <change afterPath="$PROJECT_DIR$/src/Aluno2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="desafio-IdadePessoa" />
+        <entry key="$PROJECT_DIR$" value="desafio-DescontoProduto" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Aluno.executor": "Run",
+    "Application.Aluno2.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.Carro.executor": "Run",
     "Application.DescontoProduto.executor": "Run",
@@ -64,14 +65,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "desafio-DescontoProduto",
+    "git-widget-placeholder": "desafio-Aluno2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DescontoProduto">
-    <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aluno" />
+  <component name="RunManager" selected="Application.Aluno2">
+    <configuration name="Aluno2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aluno2" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aluno2" />
         <item itemvalue="Application.DescontoProduto" />
         <item itemvalue="Application.IdadePessoa" />
         <item itemvalue="Application.Pessoa" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Aluno" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713127422238</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Desafio-Desconto produto, utilizando this.">
+      <option name="closed" value="true" />
+      <created>1713179334188</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713179334188</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,6 +250,7 @@
     <MESSAGE value="-Encapsulamento- Controlando o acesso e a escrita nos dados." />
     <MESSAGE value="Desafio-Conta Bancaria- Criar a classe e implementar métodos getters e setters para os agtribustos privados." />
     <MESSAGE value="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade." />
+    <MESSAGE value="Desafio-Desconto produto, utilizando this." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio-Desconto produto, utilizando this." />
   </component>
 </project>
