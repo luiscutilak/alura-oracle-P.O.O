@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-Desconto produto, utilizando this.">
-      <change afterPath="$PROJECT_DIR$/src/Aluno2.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-Media Alunos">
+      <change afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="desafio-DescontoProduto" />
+        <entry key="$PROJECT_DIR$" value="desafio-Aluno2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,18 +59,19 @@
     "Application.Carro.executor": "Run",
     "Application.DescontoProduto.executor": "Run",
     "Application.IdadePessoa.executor": "Run",
+    "Application.Livro.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Musica.executor": "Run",
     "Application.Pessoa.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "desafio-Aluno2",
+    "git-widget-placeholder": "desafio-Livro",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Aluno2">
+  <component name="RunManager" selected="Application.Livro">
     <configuration name="Aluno2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aluno2" />
       <module name="scrennmatch" />
@@ -92,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Livro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Livro" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Livro" />
         <item itemvalue="Application.Aluno2" />
         <item itemvalue="Application.DescontoProduto" />
         <item itemvalue="Application.IdadePessoa" />
         <item itemvalue="Application.Pessoa" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713179334188</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Desafio-Media Alunos">
+      <option name="closed" value="true" />
+      <created>1713182128790</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182128790</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +260,7 @@
     <MESSAGE value="Desafio-Conta Bancaria- Criar a classe e implementar métodos getters e setters para os agtribustos privados." />
     <MESSAGE value="Desafio-IdadePessoa-criar atributos privados nome e idade, utilizar metodos getters e setters para acessar e modificar esses atributos. Add método que verifica se é menor ou maior de Idade." />
     <MESSAGE value="Desafio-Desconto produto, utilizando this." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio-Desconto produto, utilizando this." />
+    <MESSAGE value="Desafio-Media Alunos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio-Media Alunos" />
   </component>
 </project>
