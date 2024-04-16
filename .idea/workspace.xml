@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="03- reaproveitando caracteristicas e componentes(Polimorfismo).">
+      <change afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModeloCarro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Desafios-Aluno" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,23 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Aluno.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Carro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Musica.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/scrennmatch&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aluno.executor": "Run",
+    "Application.Calculadora.executor": "Run",
+    "Application.Carro.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ModeloCarro.executor": "Run",
+    "Application.Musica.executor": "Run",
+    "Application.Pessoa.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Desafios-3.1-Carro",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/scrennmatch"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.ModeloCarro">
     <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aluno" />
       <module name="scrennmatch" />
@@ -93,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Musica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Musica" />
+    <configuration name="ModeloCarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModeloCarro" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ModeloCarro" />
+        <item itemvalue="Application.Carro" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pessoa" />
         <item itemvalue="Application.Aluno" />
-        <item itemvalue="Application.Carro" />
-        <item itemvalue="Application.Musica" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712793424828</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="03- reaproveitando caracteristicas e componentes(Polimorfismo).">
+      <option name="closed" value="true" />
+      <created>1713212573177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713212573177</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +214,7 @@
     <MESSAGE value="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro" />
     <MESSAGE value="02-Musica-Criar classe musica, com devidos atributos e métodos." />
     <MESSAGE value="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade." />
-    <option name="LAST_COMMIT_MESSAGE" value="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade." />
+    <MESSAGE value="03- reaproveitando caracteristicas e componentes(Polimorfismo)." />
+    <option name="LAST_COMMIT_MESSAGE" value="03- reaproveitando caracteristicas e componentes(Polimorfismo)." />
   </component>
 </project>
