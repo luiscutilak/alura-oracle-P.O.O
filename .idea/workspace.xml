@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-3.1 Construir Carro, calcular maior e menor preço de acordo com o Ano ao long de 3 anos.">
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gato.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos.">
+      <change afterPath="$PROJECT_DIR$/src/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Desafios-3.1-Carro" />
+        <entry key="$PROJECT_DIR$" value="Desafios-3.2-Animal" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +58,9 @@
     "Application.Animal.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.Carro.executor": "Run",
+    "Application.ContaBancaria.executor": "Run",
+    "Application.ContaCorrente.executor": "Run",
+    "Application.Gato.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ModeloCarro.executor": "Run",
     "Application.Musica.executor": "Run",
@@ -66,12 +68,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Desafios-3.2-Animal",
+    "git-widget-placeholder": "Desafios-3.3-ContaBancaria",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Gato">
+  <component name="RunManager" selected="Application.ContaCorrente">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal" />
       <module name="scrennmatch" />
@@ -79,8 +81,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Carro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Carro" />
+    <configuration name="ContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContaBancaria" />
+      <module name="scrennmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaCorrente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContaCorrente" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,13 +97,6 @@
     </configuration>
     <configuration name="Gato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Gato" />
-      <module name="scrennmatch" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContaCorrente" />
+        <item itemvalue="Application.ContaBancaria" />
         <item itemvalue="Application.Gato" />
         <item itemvalue="Application.Animal" />
         <item itemvalue="Application.ModeloCarro" />
-        <item itemvalue="Application.Carro" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713266943346</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos.">
+      <option name="closed" value="true" />
+      <created>1713268711992</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713268711992</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +236,7 @@
     <MESSAGE value="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade." />
     <MESSAGE value="03- reaproveitando caracteristicas e componentes(Polimorfismo)." />
     <MESSAGE value="Desafio-3.1 Construir Carro, calcular maior e menor preço de acordo com o Ano ao long de 3 anos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio-3.1 Construir Carro, calcular maior e menor preço de acordo com o Ano ao long de 3 anos." />
+    <MESSAGE value="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos." />
   </component>
 </project>
