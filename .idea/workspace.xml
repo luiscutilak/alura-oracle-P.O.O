@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-3.3 Conta Bancaria.">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Desafios-Aluno" />
+        <entry key="$PROJECT_DIR$" value="Desafios-3.4-NumerosPrimosGenerator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,22 +55,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Aluno.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Carro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Musica.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/scrennmatch&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aluno.executor": "Run",
+    "Application.Animal.executor": "Run",
+    "Application.Calculadora.executor": "Run",
+    "Application.Carro.executor": "Run",
+    "Application.ContaBancaria.executor": "Run",
+    "Application.ContaCorrente.executor": "Run",
+    "Application.Gato.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ModeloCarro.executor": "Run",
+    "Application.Musica.executor": "Run",
+    "Application.Pessoa.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/scrennmatch"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aluno" />
@@ -111,9 +116,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pessoa" />
-        <item itemvalue="Application.Aluno" />
-        <item itemvalue="Application.Carro" />
         <item itemvalue="Application.Musica" />
+        <item itemvalue="Application.Carro" />
+        <item itemvalue="Application.Aluno" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +203,39 @@
       <option name="project" value="LOCAL" />
       <updated>1712793424828</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="03- reaproveitando caracteristicas e componentes(Polimorfismo).">
+      <option name="closed" value="true" />
+      <created>1713212573177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713212573177</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Desafio-3.1 Construir Carro, calcular maior e menor preço de acordo com o Ano ao long de 3 anos.">
+      <option name="closed" value="true" />
+      <created>1713266943346</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713266943346</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos.">
+      <option name="closed" value="true" />
+      <created>1713268711992</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713268711992</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Desafio-3.3 Conta Bancaria.">
+      <option name="closed" value="true" />
+      <created>1713380593599</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713380593599</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +245,10 @@
     <MESSAGE value="01- CALCULADORA -cria uma classe, com método que recebe um número como parametro e retorna o dobro" />
     <MESSAGE value="02-Musica-Criar classe musica, com devidos atributos e métodos." />
     <MESSAGE value="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade." />
-    <option name="LAST_COMMIT_MESSAGE" value="03- Carro, criar classe carro com atributos, modelo, ano, cor e idade." />
+    <MESSAGE value="03- reaproveitando caracteristicas e componentes(Polimorfismo)." />
+    <MESSAGE value="Desafio-3.1 Construir Carro, calcular maior e menor preço de acordo com o Ano ao long de 3 anos." />
+    <MESSAGE value="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos." />
+    <MESSAGE value="Desafio-3.3 Conta Bancaria." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio-3.3 Conta Bancaria." />
   </component>
 </project>
