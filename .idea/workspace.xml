@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="4.3-Polimorfismo/Interface/Implements -Tabuada">
-      <change afterPath="$PROJECT_DIR$/src/ConversorTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConversorTemperaturaPadrao.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="4.4-Polimorfismo/Interface/Implements -Conversor de Temperatura.">
+      <change afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/livros/Calculavel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/livros/ProdutoFisico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,15 +18,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.3-Polimorfismo/Interface/Implements-TabuadaMultiplicacao" />
+        <entry key="$PROJECT_DIR$" value="4.3-ConversorTemperatura" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +66,7 @@
     "Application.ConversorMoeda.executor": "Run",
     "Application.ConversorTemperaturaPadrao.executor": "Run",
     "Application.Gato.executor": "Run",
+    "Application.Livro.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ModeloCarro.executor": "Run",
     "Application.Musica.executor": "Run",
@@ -73,12 +75,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "4.3-ConversorTemperatura",
+    "git-widget-placeholder": "4.4-Polimorfismo/Interface/Implements-Calculvel-Produto-Livro",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConversorTemperaturaPadrao">
+  <component name="RunManager" selected="Application.Livro">
     <configuration name="CalculadoraSalaRetangular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculadoraSalaRetangular" />
       <module name="scrennmatch" />
@@ -100,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Livro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Livro" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Livro" />
         <item itemvalue="Application.ConversorTemperaturaPadrao" />
         <item itemvalue="Application.TabuadaMultiplicacao" />
         <item itemvalue="Application.CalculadoraSalaRetangular" />
         <item itemvalue="Application.ConversorMoeda" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713703253177</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="4.4-Polimorfismo/Interface/Implements -Conversor de Temperatura.">
+      <option name="closed" value="true" />
+      <created>1713704661470</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713704661470</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,6 +298,7 @@
     <MESSAGE value="4.1 - ConversorMoedaDolarReal" />
     <MESSAGE value="4.2-Polimorfismo/Interface/Implements Calcular area e perimetro" />
     <MESSAGE value="4.3-Polimorfismo/Interface/Implements -Tabuada" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.3-Polimorfismo/Interface/Implements -Tabuada" />
+    <MESSAGE value="4.4-Polimorfismo/Interface/Implements -Conversor de Temperatura." />
+    <option name="LAST_COMMIT_MESSAGE" value="4.4-Polimorfismo/Interface/Implements -Conversor de Temperatura." />
   </component>
 </project>
