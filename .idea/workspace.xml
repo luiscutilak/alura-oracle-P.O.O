@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Desafio-3.3 Conta Bancaria.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
+    <list default="true" id="db4b6d10-88e2-4c45-a6d3-f5732d251142" name="Changes" comment="Classificando episodios, filmes, series">
+      <change afterPath="$PROJECT_DIR$/src/ConversaoFinanceira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConversorMoeda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
     "Application.Carro.executor": "Run",
     "Application.ContaBancaria.executor": "Run",
     "Application.ContaCorrente.executor": "Run",
+    "Application.ConversorMoeda.executor": "Run",
     "Application.Gato.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ModeloCarro.executor": "Run",
@@ -76,16 +74,16 @@
     "last_opened_file_path": "C:/scrennmatch"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aluno" />
+  <component name="RunManager" selected="Application.ConversorMoeda">
+    <configuration name="Carro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Carro" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Carro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Carro" />
+    <configuration name="ConversorMoeda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConversorMoeda" />
       <module name="scrennmatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConversorMoeda" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pessoa" />
         <item itemvalue="Application.Musica" />
         <item itemvalue="Application.Carro" />
-        <item itemvalue="Application.Aluno" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713380593599</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Classificando episodios, filmes, series">
+      <option name="closed" value="true" />
+      <created>1713534165528</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713534165528</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +255,7 @@
     <MESSAGE value="Desafio-3.1 Construir Carro, calcular maior e menor preço de acordo com o Ano ao long de 3 anos." />
     <MESSAGE value="Desafio-3.2 Construir Classe Animal,&#10;com suas subclasses e métodos." />
     <MESSAGE value="Desafio-3.3 Conta Bancaria." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio-3.3 Conta Bancaria." />
+    <MESSAGE value="Classificando episodios, filmes, series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classificando episodios, filmes, series" />
   </component>
 </project>
